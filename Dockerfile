@@ -3,6 +3,6 @@ MAINTAINER Mike Holloway <me@mikeholloway.co.uk>
 
 WORKDIR /DATA/code/api
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD ["node", "server.js"]
