@@ -1,7 +1,7 @@
 FROM mhart/alpine-node
 MAINTAINER Mike Holloway <me@mikeholloway.co.uk>
 
-WORKDIR /DATA/code/api
+WORKDIR /DATA/code
 
 RUN npm install supervisor -g
 
